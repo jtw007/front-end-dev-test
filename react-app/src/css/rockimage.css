@@ -1,0 +1,16 @@
+/* ====mobile formatting start==== */
+.rock-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#rock-img {
+    background-size: cover;
+    min-height: 10vh;
+    position: relative;
+}
+/* ====mobile formatting end==== */
+
+@media only screen and (min-width: 768px) {
+    
+}
