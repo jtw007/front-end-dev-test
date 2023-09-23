@@ -9,12 +9,14 @@ import {
 import Hero from './components/Hero';
 import RockImage from './components/RockImage';
 import Banner1 from './components/Banner1'
+import IconsSection from './components/IconsSection';
 
 //css file imports
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/hero.css'
 import './css/rockimage.css'
 import './css/banner1.css'
+import './css/icons-section.css'
 
 function App() {
 
@@ -23,6 +25,7 @@ return (
       <Hero />
       <RockImage />
       <Banner1 />
+      <IconsSection />
   </div>
 );
 }
