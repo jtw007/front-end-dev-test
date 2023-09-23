@@ -1,0 +1,34 @@
+/* ====mobile formatting start==== */
+@media only screen and (max-width: 768px) {
+    .banner1-image {
+        min-height: 20vh;
+        position: relative;
+    }
+
+    #banner1-title-container {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+        padding-left: 5%;
+    }
+
+    #banner1-title {
+        color: purple;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    #banner1-btn {
+        width: 35%;;
+        padding: 5px;
+        color: white;
+    }
+
+}
+/* ====mobile formatting end==== */
+
+@media only screen and (min-width: 768px) {
+
+}

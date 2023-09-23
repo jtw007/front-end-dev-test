@@ -14,6 +14,7 @@ import Banner1 from './components/Banner1'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/hero.css'
 import './css/rockimage.css'
+import './css/banner1.css'
 
 function App() {
 
