@@ -1,0 +1,76 @@
+/* ====mobile formatting start==== */
+@media only screen and (max-width: 768px) {
+    .rock-container {
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #rock-img {
+        background-size: cover;
+        min-height: 10vh;
+        position: relative;
+    }
+    
+    #rock-text-container {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        padding: 0 5% 0 5%;
+    }
+    
+    #rock-text-title {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        color: purple;
+        font-weight: bolder;
+        font-size: 2rem;
+        margin: 3% 0 3% 0;
+    }
+
+    input {
+        display: none;
+    }
+    
+    #rock-accordion-label {
+        color: purple;
+        font-weight: bold;
+        position: relative;
+        padding: 5px 5px 5px 20px;
+    }
+    
+    #rock-accordion-label:before {
+        content: " ";
+        border-width: 6px;
+        border-style: solid;
+        border-color: transparent transparent transparent purple;
+        height: 0;
+        font-size: 0;
+        position: absolute;
+        top: 33%;
+        left: 5%;
+        transition: transform 0.5s;
+        transform-origin: 3px center;
+    }
+
+    input:checked ~ label:before {
+        transform: rotate(90deg)
+    }
+
+    #accordion-text {
+        display: none;
+    }
+
+    input:checked ~ #accordion-text {
+        display: block;
+    }
+    
+}
+
+/* ====mobile formatting end==== */
+
+
+@media only screen and (min-width: 768px) {
+    
+}
