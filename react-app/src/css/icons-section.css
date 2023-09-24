@@ -1,0 +1,99 @@
+/* ====mobile formatting start==== */
+@media only screen and (max-width: 768px) {
+    #icons-section {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    #icons-container {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 10px;
+        margin: 0 5px 0 5px;
+    }
+
+    #mapped-container {
+        /* border: 1px solid gold; */
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+
+    #icon-container {
+        border: 2px solid purple;
+        border-radius: 25px;
+    }
+
+    #icon {
+        padding: 0px 5px 0px 5px;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    #icons-text-container {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        padding: 0 5% 0 5%;
+    }
+
+    #icons-text-title {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+
+    input {
+        display: none;
+    }
+    
+    #icon-accordion-label {
+        color: purple;
+        font-weight: bold;
+        position: relative;
+        padding: 5px 5px 5px 20px;
+    }
+    
+    #icon-accordion-label:before {
+        content: " ";
+        border-width: 6px;
+        border-style: solid;
+        border-color: transparent transparent transparent purple;
+        height: 0;
+        font-size: 0;
+        position: absolute;
+        top: 33%;
+        left: 5%;
+        transition: transform 0.5s;
+        transform-origin: 3px center;
+    }
+
+    input:checked ~ label:before {
+        transform: rotate(90deg)
+    }
+
+    #icon-text {
+        display: none;
+    }
+
+    input:checked ~ #icon-text {
+        display: block;
+    }
+}
+
+/* ====mobile formatting end==== */
+
+
+@media only screen and (min-width: 768px) {
+    
+}
