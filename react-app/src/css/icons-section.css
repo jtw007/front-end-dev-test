@@ -1,6 +1,46 @@
 /* ====mobile formatting start==== */
 @media only screen and (max-width: 768px) {
-    
+    #icons-section {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    #icons-container {
+        border: 1px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #mapped-container {
+        border: 1px solid gold;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    #icon-container {
+        border: 2px solid purple;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0px 5px 0px 5px; */
+    }
+
+    #icon {
+        /* border: 2px solid purple; */
+        /* border-radius: 25px; */
+        padding: 0px 5px 0px 5px;
+        height: 2rem;
+        width: 2rem;
+    }
 }
 
 /* ====mobile formatting end==== */

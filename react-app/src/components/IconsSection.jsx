@@ -7,7 +7,9 @@ const IconsSection = () => {
                     key={(`${idx}`)}
                     id='mapped-container'
                 >
-                    <img id='icon' src={icon.icon} />
+                    <div id='icon-container'>
+                        <img id='icon' src={icon.icon} />
+                    </div>
                     <p>{icon.desc}</p>
                </div> 
             )
