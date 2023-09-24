@@ -1,7 +1,6 @@
 /* ====mobile formatting start==== */
 @media only screen and (max-width: 768px) {
     .rock-container {
-        font-family: 'Open Sans', sans-serif;
         display: flex;
         flex-direction: column;
     }

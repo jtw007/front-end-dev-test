@@ -21,11 +21,11 @@ const RockImage = () => {
                 <div id='rock-accordion'>
                     <input 
                         type='checkbox' 
-                        id='trigger' 
+                        id='rock-trigger' 
                     />
                     <label 
                         id='rock-accordion-label' 
-                        htmlFor='trigger'>Lorem Ipsum
+                        htmlFor='rock-trigger'>Lorem Ipsum
                     </label>
                     <p id='accordion-text'>{accordionText.text}</p>
                 </div>
