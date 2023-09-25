@@ -1,4 +1,5 @@
 import { Carousel } from "react-bootstrap"
+import stars from '../front-end-dev-test-assets/5-stars.svg'
 
 const slideOne = {
     name: 'John Doe 09/01/2023',
@@ -32,7 +33,7 @@ const CarouselSection = () => {
                     Lorem Ipsum Dolor Sit Amet 
                 </p>
                 <div id='stars-container'>
-                    stars go here
+                    <img id='stars' src={stars} />
                 </div>
             </div>
 

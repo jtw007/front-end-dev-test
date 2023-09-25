@@ -1,12 +1,36 @@
 /* ====mobile formatting start==== */
 @media only screen and (max-width: 768px) {
-    #carousel-content-container {
+    .carousel-content-container {
+        background-color: lightgrey;
         display: flex;
         flex-direction: column;
     }
 
+    #ratings-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #ratings-title {
+        font-weight: bolder;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #stars-container {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+    }
+
+    #stars {
+        width: 50%;
+    }
+
     .carousel {
-        background-color: lightgray;
         height: 325px;
     }
 
