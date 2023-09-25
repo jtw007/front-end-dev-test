@@ -99,5 +99,107 @@
 
 
 @media only screen and (min-width: 768px) {
+    #icons-section {
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        height: 500px;
+    }
+
+    #icons-container {
+        /* border: 1px solid red; */
+        background-color: rgb(229, 229, 229);
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center; */
+        padding-top: 10px;
+        width: 700px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    #mapped-container {
+        /* border: 1px solid gold; */
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #icon-container {
+        border: 2px solid purple;
+        border-radius: 40px;
+        text-align: center;
+    }
+
+    #icon {
+        /* border: 1px solid red; */
+        margin: 5px;
+        padding: 0px 10px 0px 10px;
+        height: 4rem;
+        width: 4rem;
+        text-align: center;
+    }
+
+    #icon-desc {
+        font-size: 1.5rem;
+    }
+
+    #icons-text-container {
+        border: 2px solid blue;
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        /* padding: 0 5% 0 5%; */
+    }
+
+    #icons-text-title {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+
+    input {
+        display: none;
+    }
     
+    #icon-accordion-label {
+        color: purple;
+        font-weight: bold;
+        position: relative;
+        padding: 5px 5px 5px 20px;
+    }
+    
+    #icon-accordion-label:before {
+        content: " ";
+        border-width: 6px;
+        border-style: solid;
+        border-color: transparent transparent transparent purple;
+        height: 0;
+        font-size: 0;
+        position: absolute;
+        top: 33%;
+        left: 5%;
+        transition: transform 0.5s;
+        transform-origin: 3px center;
+    }
+
+    input:checked ~ label:before {
+        transform: rotate(90deg)
+    }
+
+    #icon-text {
+        display: none;
+    }
+
+    input:checked ~ #icon-text {
+        display: block;
+    }
 }

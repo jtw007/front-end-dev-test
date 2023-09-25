@@ -18,7 +18,7 @@ const IconsSection = () => {
                     <div id='icon-container'>
                         <img id='icon' src={icon.icon} />
                     </div>
-                    <p>{icon.desc}</p>
+                    <p id='icon-desc'>{icon.desc}</p>
                </div> 
             )
         })
