@@ -1,0 +1,33 @@
+/* ====mobile formatting start==== */
+@media only screen and (max-width: 768px) {
+    #carousel-content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel {
+        background-color: lightgray;
+        height: 325px;
+    }
+
+    .carousel-text-container {
+        /* border: 1px solid red; */
+        margin-top: 20px;
+        padding: 0 35px 0 35px;
+    }
+
+    .carousel-title {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        color: purple;
+    }
+}
+
+/* ====mobile formatting end==== */
+
+
+@media only screen and (min-width: 768px) {
+    
+}
