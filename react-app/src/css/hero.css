@@ -68,13 +68,15 @@
 @media only screen and (min-width: 768px) {
     #hero-container {
         display: flex;
+        box-sizing: border-box;
         /* height: 100vh;
         width: 100vw; */
     }
 
     .hero-image {
+        box-sizing: border-box;
         background-size: cover;
-        background-position: center center;
+        background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         position: relative;
