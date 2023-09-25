@@ -12,7 +12,10 @@ const RockImage = () => {
 
     return (
         <div className='rock-container'>
+            <div id='rock-img-container'>
                 <img id='rock-img' src={rockImg}></img>
+            </div>
+                
 
             <div id='rock-text-container'>
                 <p id='rock-text-title'>Lorem Ipsum</p>

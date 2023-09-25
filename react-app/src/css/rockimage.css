@@ -69,23 +69,36 @@
 
 /* ====mobile formatting end==== */
 
+/* regular formatting start */
 
+.rock-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+/* media screen min 768 start */
 @media only screen and (min-width: 768px) {
     .rock-container {
-        display: flex;
+        /* display: flex; */
         flex-direction: row-reverse;
+    }
+
+    #rock-img-container {
+        width: 50%;
+        display: flex;
+        box-sizing: border-box;
     }
     
     #rock-img {
+        display: flex;
         background-size: cover;
-        /* min-height: 10vh; */
+        background-position: center;
         width: 100vh;
         height: 70vh;
-        position: relative;
     }
     
     #rock-text-container {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
         padding: 200px 50px 0 250px; 
@@ -147,3 +160,4 @@
         transition-delay: 0.5s;
     }
 }
+/* media screen min 768 end */
