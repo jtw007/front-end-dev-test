@@ -4,13 +4,8 @@ import Button from 'react-bootstrap/Button'
 
 const Hero = () => {
     return (
-        <div 
-            className='hero-image'
-            style={{
-                backgroundImage: `url(${HeroImage})`,
-                backgroundSize: `cover`,
-            }}
-        >
+        <section id='hero-container'>
+            <div className='hero-image' style={{backgroundImage: `url(${HeroImage})`,}}>
                 <div id='hero-title-container'>
                     <p id='hero-title'>RoosterGrin </p>
                 </div>
@@ -19,11 +14,13 @@ const Hero = () => {
                     <p id='welcome-text'>Welcome to </p>
                     <p id='welcome-text-2'>Rooster Grin </p>
                     <div id='button-container'>
-                        <button id='welcome-btn'>Button</button>
+                        <button id='welcome-btn'>Button Button</button>
                     </div>
                     
                 </div>
-        </div>
+            </div>
+        </section>
+        
     )
 }
 
