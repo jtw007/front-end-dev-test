@@ -78,17 +78,11 @@
 
 /* ====mobile formatting end==== */
 
-/* regular formatting start */
-
-.rock-container {
-    display: flex;
-    flex-direction: column; 
-}
 
 /* media screen min 768 start */
 @media only screen and (min-width: 768px) {
     .rock-container {
-        /* display: flex; */
+        display: flex;
         flex-direction: row-reverse;
     }
 
