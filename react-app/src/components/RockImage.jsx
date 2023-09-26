@@ -11,7 +11,7 @@ const accordionText = {
 const RockImage = () => {
 
     return (
-        <div className='rock-container'>
+        <section className='rock-container'>
             <div id='rock-img-container'>
                 <img id='rock-img' src={rockImg}></img>
             </div>
@@ -33,7 +33,7 @@ const RockImage = () => {
                     <p id='accordion-text'>{accordionText.text}</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

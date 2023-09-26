@@ -24,7 +24,7 @@ const IconsSection = () => {
         })
 
     return (
-        <div id='icons-section'>
+        <section id='icons-section'>
             <div id='icons-container'>
                 {icons}
             </div>
@@ -42,10 +42,10 @@ const IconsSection = () => {
                         id='icon-accordion-label' 
                         htmlFor='icons-trigger'>Lorem Ipsum
                     </label>
-                    <p id='icon-text'>{iconAccordionText.text}</p>
+                    <p id='icon-accordion-text'>{iconAccordionText.text}</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

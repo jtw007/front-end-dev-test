@@ -7,7 +7,13 @@ const banner2Text = {
 const Banner2 = () => {
 
     return (
-        <div className='banner2-image'>
+        <section 
+            className='banner2-image'
+            // style={{
+            //     backgroundImage: `url(${banner2Image})`,
+            //     backgroundSize: `cover`,
+            // }}
+        >
             <img id='banner2-img' src={banner2Image}></img>
 
             <div id='banner2-content-container'>
@@ -18,7 +24,7 @@ const Banner2 = () => {
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }
 

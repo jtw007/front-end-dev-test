@@ -2,7 +2,7 @@ import banner1Image from '../front-end-dev-test-assets/banner-1.jpg'
 
 const Banner1 = () => {
 return (
-    <div 
+    <section 
         className='banner1-image'
         style={{
             backgroundImage: `url(${banner1Image})`,
@@ -19,7 +19,7 @@ return (
         </div>
 
 
-    </div>
+    </section>
 )
 }
 
