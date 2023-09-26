@@ -105,16 +105,19 @@
         display: flex;
         justify-content: center;
         flex-direction: row-reverse;
-        height: auto;
+        height: 810px;
     }
 
     #icons-container {
         /* border: 1px solid red; */
         background-color: rgb(229, 229, 229);
-        padding-top: 10px;
+        padding-top: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
         width: 700px;
         display: grid;
-        grid-template-columns: repeat(2, 1fr)
+        grid-template-columns: repeat(2, 1fr);
+
     }
 
     #mapped-container {
@@ -123,6 +126,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        height: 200px;
     }
 
     #icon-container {
