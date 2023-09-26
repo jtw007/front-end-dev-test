@@ -4,10 +4,19 @@
         display: flex;
         flex-direction: column;
     }
+
+    #rock-img-container {
+        background-size: cover;
+        background-position: center;
+        min-height: 25vh;
+        position: relative;
+    }
     
     #rock-img {
         background-size: cover;
-        min-height: 10vh;
+        background-position: center;
+        height: auto;
+        width: 100%;
         position: relative;
     }
     
