@@ -85,7 +85,7 @@
         /* border: 5px solid blue; */
         display: flex;
         flex-direction: row-reverse;
-        height: 1200px;
+        min-height: 1200px;
     }
 
     #rock-img-container {
@@ -104,7 +104,7 @@
     }
     
     #rock-text-container {
-        /* border: 1px solid red; */
+        /* border: 5px solid red; */
         display: flex;
         flex-direction: column;
         padding: 150px 50px 0 250px; 
