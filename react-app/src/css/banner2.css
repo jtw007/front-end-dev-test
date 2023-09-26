@@ -104,4 +104,12 @@
         outline: none;
         box-shadow: none;
     }
+
+    /* ==button animation start== */
+    #banner2-btn:hover {
+        background-color: white;
+        color:  rgb(236, 114, 42);
+        transition: 1s ease;
+    }
+    /* ==button animation end== */
 }
