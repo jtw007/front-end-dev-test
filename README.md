@@ -1,5 +1,14 @@
 # front-end-dev-test
 
+### *Please also submit a small write up discussing (leave answers to a sentence or two):*
+
+  1. What you technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
+    The technologies I used for this project was React (Create React App) along with React-Bootstrap and CSS stylings. I used CRA because it is the library I am the most familiar with. I have also used bootstrap and its react derivatives in previous projects, so it       was familiar for me to work with.   
+  2. Any struggles you faced when developing with technology you chose
+    I didn't face any struggles in particular with the technologies but I initially struggled styling in some areas such as the individual icons and the carousel. I also struggled a bit trying to get the svg icons to display when importing them into the jsx file           but I was able to troubleshoot and overcome these obstacles. 
+  3. What you enjoyed the most and why
+      Overall, I enjoyed the entire process and experience. It was very fun for me to start on one section, build it out, troubleshoot the errors/problems, and then move onto the next. 
+
 ## Intro
 
 Congratulations on making it to the testing phase of the hiring process! For this part, we would like to learn about your creativity, how well you code, and how well you follow instructions.
