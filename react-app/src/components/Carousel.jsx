@@ -37,23 +37,23 @@ const CarouselSection = () => {
                 </div>
             </div>
 
-            <Carousel interval={null}>
+            <Carousel interval={null} id='carousel-container'>
                 <Carousel.Item className='carousel'>
                     <div className='carousel-text-container'>
                         <p className='carousel-title'>{slideOne.name}</p>
-                        <p>{slideOne.text}.</p>
+                        <p className='carousel-text'>{slideOne.text}.</p>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item className='carousel'>
                     <div className='carousel-text-container'>
                         <p className='carousel-title'>{slideTwo.name}</p>
-                        <p>{slideTwo.text}</p>
+                        <p className='carousel-text'>{slideTwo.text}</p>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item className='carousel'>
                     <div className='carousel-text-container'>
                         <p className='carousel-title'>{slideThree.name}</p>
-                        <p>{slideThree.text}</p>
+                        <p className='carousel-text'>{slideThree.text}</p>
                     </div>
                 </Carousel.Item>
             </Carousel>

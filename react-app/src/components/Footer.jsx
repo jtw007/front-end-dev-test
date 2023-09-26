@@ -2,15 +2,9 @@ import instagramSvg from '../front-end-dev-test-assets/instagram.svg'
 import facebookSvg from '../front-end-dev-test-assets/facebook.svg'
 
 const Footer = () => {
-    // const socials = socialsIcons.map((icon, idx) => {
-    //     return (
-    //         <img key={(`${idx}`)} id='social' src={icon.icon} />
-    //     )
-        
-    // })
 
     return (
-        <div id='footer'>
+        <section id='footer'>
             <p id='follow'>Follow Us:</p>
 
             <div className='social'>
@@ -30,7 +24,7 @@ const Footer = () => {
                 </a>
             </div>
                 
-        </div>
+        </section>
     )
 }
 

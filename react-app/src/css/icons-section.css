@@ -86,18 +86,126 @@
         transform: rotate(90deg)
     }
 
-    #icon-text {
+    #icon-accordion-text {
         display: none;
     }
 
-    input:checked ~ #icon-text {
+    input:checked ~ #icon-accordion-text {
         display: block;
     }
 }
-
 /* ====mobile formatting end==== */
 
 
+
+/* ====min width 768 start==== */
 @media only screen and (min-width: 768px) {
+    #icons-section {
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        height: 810px;
+    }
+
+    #icons-container {
+        /* border: 1px solid red; */
+        background-color: rgb(229, 229, 229);
+        padding-top: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 700px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    #mapped-container {
+        /* border: 1px solid gold; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+    }
+
+    #icon-container {
+        border: 2px solid purple;
+        border-radius: 40px;
+        text-align: center;
+    }
+
+    #icon {
+        /* border: 1px solid red; */
+        margin: 5px;
+        padding: 0px 10px 0px 10px;
+        height: 4rem;
+        width: 4rem;
+        text-align: center;
+    }
+
+    #icon-desc {
+        font-size: 1.5rem;
+    }
+
+    #icons-text-container {
+        /* border: 2px solid blue; */
+        background-color: beige;
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        padding: 3% 3% 3% 7%;
+    }
+
+    #icons-text-title {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-weight: 900;
+        font-size: 3rem;
+    }
+
+    #icons-text {
+        font-size: 1.5rem;
+    }
     
+    input {
+        display: none;
+    }
+    
+    #icon-accordion-label {
+        color: purple;
+        font-weight: bold;
+        position: relative;
+        padding: 5px 5px 5px 20px;
+        font-size: 1.5rem;
+    }
+    
+    #icon-accordion-label:before {
+        content: " ";
+        border-width: 6px;
+        border-style: solid;
+        border-color: transparent transparent transparent purple;
+        height: 0;
+        font-size: 0;
+        position: absolute;
+        top: 37%;
+        left: 5%;
+        transition: transform 0.5s;
+        transform-origin: 3px center;
+    }
+
+    input:checked ~ label:before {
+        transform: rotate(90deg)
+    }
+
+    #icon-accordion-text {
+        display: none;
+        font-size: 1.5rem;
+    }
+
+    input:checked ~ #icon-accordion-text {
+        display: block;
+    }
 }
+/* ====min width 768 end==== */
