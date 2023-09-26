@@ -1,0 +1,123 @@
+/* ====mobile formatting start==== */
+@media only screen and (max-width: 768px) {
+    .carousel-content-container {
+        background-color: lightgrey;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #ratings-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #ratings-title {
+        font-weight: bolder;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #stars-container {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+    }
+
+    #stars {
+        width: 50%;
+    }
+
+    .carousel {
+        height: 325px;
+    }
+
+    .carousel-text-container {
+        /* border: 1px solid red; */
+        margin-top: 20px;
+        padding: 0 35px 0 35px;
+    }
+
+    .carousel-title {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        color: purple;
+    }
+}
+
+/* ====mobile formatting end==== */
+
+
+@media only screen and (min-width: 768px) {
+    .carousel-content-container {
+        background-color: rgb(219, 219, 219);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #ratings-container {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 20px 0 20px;
+    }
+
+    #ratings-title {
+        font-weight: bolder;
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #stars-container {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+    }
+
+    #stars {
+        width: 50%;
+    }
+    
+    #carousel-container {
+        /* border: 3px solid green; */
+        width: 50%;
+    }
+
+    .carousel {
+        height: 325px;
+    }
+
+    .carousel-text-container {
+        /* border: 1px solid rgb(0, 17, 255); */
+        margin: 60px 0 0 175px;
+        padding: 0 35px 0 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 75%;
+    }
+
+    .carousel-title {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: purple;
+    }
+
+    .carousel-text {
+        font-size: 1rem;
+    }
+
+}
