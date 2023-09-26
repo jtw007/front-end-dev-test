@@ -86,11 +86,11 @@
         transform: rotate(90deg)
     }
 
-    #icon-text {
+    #icon-accordion-text {
         display: none;
     }
 
-    input:checked ~ #icon-text {
+    input:checked ~ #icon-accordion-text {
         display: block;
     }
 }
@@ -176,10 +176,6 @@
         padding: 5px 5px 5px 20px;
         font-size: 1.5rem;
     }
-
-    #icon-accordion-text {
-        font-size: 1.5rem;
-    }
     
     #icon-accordion-label:before {
         content: " ";
@@ -201,6 +197,7 @@
 
     #icon-accordion-text {
         display: none;
+        font-size: 1.5rem;
     }
 
     input:checked ~ #icon-accordion-text {
